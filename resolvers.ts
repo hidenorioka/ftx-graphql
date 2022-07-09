@@ -1,4 +1,4 @@
-const {Users} = require('./data')
+import { Users } from './data'
 
 const resolvers = {
   users: async (_) => {
@@ -9,4 +9,4 @@ const resolvers = {
   }
 };
 
-module.exports = resolvers;
+export default resolvers
